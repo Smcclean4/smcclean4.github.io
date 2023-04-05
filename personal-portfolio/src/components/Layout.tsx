@@ -1,17 +1,18 @@
 import Head from 'next/head'
 import { ReactNode } from 'react'
+import { Footer } from './Footer';
+import { Header } from './Header';
 
 type Props = {
   children: ReactNode;
 }
 
-const Layout = ({ children }: Props) => {
+export const Layout = ({ children }: Props) => {
   return (
-    <div>
-      <Head>
-        <title>SLM Portfolio</title>
-      </Head>
-      <main>{children}</main>
+    <div className="h-screen flex flex-col">
+      <Header />
+      <main className="flex items-center justify-center flex-col flex-grow">{children}</main>
+      <Footer />
     </div>
   )
 }
