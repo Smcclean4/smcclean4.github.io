@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <Layout>
       <div className="flex justify-center flex-col">
-        <Image className="my-10 mx-auto" src="/SLM-LOGO-ICON-WHITE.png" alt={""} height="200" width="200" />
-        <p className="text-2xl animate-typing overflow-hidden border-r-2 whitespace-nowrap my-0 mx-auto tracking-widest">Software Developer. Innovator. Creator.</p>
+        <Image className="my-10 mx-auto p-3 lg:p-0" src="/SLM-LOGO-ICON-WHITE.png" alt={""} height="200" width="200" />
+        <p className="text-md animate-typing overflow-hidden border-r-2 whitespace-nowrap my-0 mx-auto tracking-widest lg:text-2xl sm:text-lg">Software Developer. Innovator. Creator.</p>
       </div>
     </Layout>
   )
