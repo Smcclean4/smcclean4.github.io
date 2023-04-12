@@ -12,7 +12,7 @@ export const Navbar = () => {
   return (
     <>
       <div className="p-6 flex flex-row items-center justify-between w-full bg-black">
-        <Link href="/"><Image src="/SLM-LETTER-ICON.png" alt={""} height="50" width="50" /></Link>
+        <Link href="/"><Image src="/SLM-LETTER-ICON.png" alt={""} height="50" width="50" placeholder="blur" blurDataURL="/SLM-LETTER-ICON.png" /></Link>
         <div className="flex flex-row cursor-pointer sm:hidden z-10">
           <div className="w-auto h-auto absolute flex flex-col items-center right-5 top-10 text-center pr-2">
             <ul onClick={openNav}>
