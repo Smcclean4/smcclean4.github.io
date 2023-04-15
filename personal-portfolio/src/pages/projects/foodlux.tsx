@@ -1,5 +1,6 @@
 import { Layout } from "@/components/Layout"
 import { useState, useEffect } from "react";
+import { Videoplayer } from "@/components/Videoplayer";
 
 const foodlux = () => {
   const [loading, setLoading] = useState(false);
@@ -23,9 +24,9 @@ const foodlux = () => {
             <a target="_blank" href="https://www.nodejs.org"><img className="m-3 h-15 animate-pulse" src="https://img.icons8.com/color/48/000000/nodejs.png" /></a>
           </ul>
         </div>
-        <div className={loading ? "animate-fadingRev text-black w-full lg:w-1/2 h-full flex flex-col items-center justify-end bg-white lg:bg-inherit" : "text-black w-full lg:w-1/2 h-full flex flex-col items-center justify-end bg-white lg:bg-inherit"}>
-          <video controls src={"/IMG_0276.MOV"} className="w-full h-auto p-6" />
-          <p className="font-mono text-md md:text-xl my-4">You can find this project <a href="" className="underline">here.</a></p>
+        <div className={loading ? "animate-slide text-black w-full lg:w-1/2 h-full flex flex-col items-center justify-end lg:bg-inherit bg-white" : "text-black w-full lg:w-1/2 h-full flex flex-col items-center justify-end lg:bg-inherit bg-white"}>
+          <Videoplayer url="https://mccleansid.wistia.com/medias/gspfsh7dhf" />
+          <p className="font-mono text-md md:text-xl my-4 px-6 text-center">You can find this project live <a href="" className="underline">here</a>. And the source code <a target="_blank" href="https://www.github.com/smcclean4/foodlux" className="underline">here</a>.</p>
         </div>
       </div>
     </Layout>

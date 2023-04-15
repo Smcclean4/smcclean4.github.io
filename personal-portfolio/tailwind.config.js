@@ -55,6 +55,10 @@ module.exports = {
           from: { transform: "translateY(-30px)" },
           to: { transform: "translateY(15px)" },
         },
+        sweep: {
+          from: { transform: "translateX(500px)" },
+          to: { transform: "translateX(0px)" },
+        },
       },
       animation: {
         typing: "type 4.2s steps(40, end), blink .90s step-end infinite",
@@ -67,6 +71,7 @@ module.exports = {
         extension1: "tab1 1.5s linear forwards",
         extension2: "tab2 1.0s linear forwards",
         extension3: "tab3 .50s linear forwards",
+        slide: "sweep 1.5s linear forwards, fadeRev .70s linear forwards",
       },
     },
   },
