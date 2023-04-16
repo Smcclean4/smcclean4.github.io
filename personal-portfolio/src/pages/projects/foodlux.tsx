@@ -1,6 +1,8 @@
 import { Layout } from "@/components/Layout"
 import { useState, useEffect } from "react";
 import { Videoplayer } from "@/components/Videoplayer";
+import { Loading } from "@/tools/Loading";
+import { Suspense } from "react";
 
 const foodlux = () => {
   const [loading, setLoading] = useState(false);
@@ -24,8 +26,12 @@ const foodlux = () => {
             <a target="_blank" href="https://www.nodejs.org"><img className="m-3 h-15 animate-pulse" src="https://img.icons8.com/color/48/000000/nodejs.png" /></a>
           </ul>
         </div>
-        <div className={loading ? "animate-slide text-black w-full lg:w-1/2 h-full flex flex-col items-center justify-end lg:bg-inherit bg-white" : "text-black w-full lg:w-1/2 h-full flex flex-col items-center justify-end lg:bg-inherit bg-white"}>
-          <Videoplayer url="https://mccleansid.wistia.com/medias/euvwununbc" />
+        <div className="text-black w-full lg:w-1/2 h-full flex flex-col items-center justify-end lg:bg-inherit bg-white">
+          <div className={loading ? "animate-slide h-full w-full flex items-end justify-center" : "h-full w-full flex items-end justify-center"}>
+            <Suspense fallback={<Loading />}>
+              <Videoplayer url="https://mccleansid.wistia.com/medias/euvwununbc" />
+            </Suspense>
+          </div>
           <p className="font-mono text-md md:text-xl my-4 px-6 text-center">You can find this project live <a href="" className="underline">here</a>. And the source code <a target="_blank" href="https://www.github.com/smcclean4/foodlux" className="underline">here</a>.</p>
         </div>
       </div>
