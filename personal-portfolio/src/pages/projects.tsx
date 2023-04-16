@@ -1,5 +1,5 @@
 import { Layout } from "@/components/Layout"
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 
 const projects = () => {
   const [loading, setLoading] = useState(false);

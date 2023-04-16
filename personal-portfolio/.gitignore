@@ -35,6 +35,3 @@ next-env.d.ts
 
 # storybook
 storybook-static
-
-# next env
-next-env.d.ts
