@@ -1,5 +1,5 @@
 import { Layout } from "@/components/Layout"
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Videoplayer } from "@/components/Videoplayer";
 import { Loading } from "@/tools/Loading";
 import { Suspense } from "react";
