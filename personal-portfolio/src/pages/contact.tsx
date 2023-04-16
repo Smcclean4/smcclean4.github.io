@@ -1,6 +1,6 @@
 import { Layout } from "@/components/Layout"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faGitkraken, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons"
 
 const Contact = () => {
