@@ -20,7 +20,7 @@ export const Navbar = () => {
               <li className={open ? 'animate-fading text-white text-2xl border-2 my-2 w-10' : "animate-fadingRev text-white text-2xl border-2 my-2 w-10"}></li>
               <li className={open ? 'animate-rotateDwn text-white text-2xl border-2 my-2 w-10' : 'animate-rotateDwnRev text-white text-2xl border-2 my-2 w-10'}></li>
             </ul>
-            <ul className={open ? "animate-fadingRev backdrop-blur-sm" : "animate-fading backdrop-blur-sm"}>
+            <ul className={open ? "animate-fadingRev backdrop-blur-sm text-white" : "animate-fading backdrop-blur-sm text-white"}>
               <li className={open ? "animate-extension1 my-3 p-2 mx-2 text-xl" : "my-3 p-2 mx-2 text-xl"}>
                 <Link href="/about">About</Link>
               </li>
@@ -34,7 +34,7 @@ export const Navbar = () => {
           </div>
         </div>
         <div className="hidden sm:block">
-          <ul className="flex">
+          <ul className="flex text-white">
             <li className="mx-10 underline underline-offset-8">
               <Link href="/about">About</Link>
             </li>
