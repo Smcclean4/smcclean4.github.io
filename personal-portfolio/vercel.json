@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/foodlux",
-      "destination": "https://foolux.vercel.app"
+      "destination": "https://foodlux.vercel.app"
     }
   ]
 }

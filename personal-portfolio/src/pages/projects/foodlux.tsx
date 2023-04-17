@@ -33,7 +33,7 @@ const Foodlux = () => {
               <Videoplayer url="https://mccleansid.wistia.com/medias/euvwununbc" />
             </Suspense>
           </div>
-          <p className="font-mono text-md md:text-xl my-4 px-6 text-center">You can find this project live <a href="" className="underline">here</a>. And the source code <a target="_blank" href="https://www.github.com/smcclean4/foodlux" className="underline">here</a>.</p>
+          <p className="font-mono text-md md:text-xl my-4 px-6 text-center">You can find this project live <a href="https://www.sidneylmcclean.dev/foodlux" className="underline">here</a>. And the source code <a target="_blank" href="https://www.github.com/smcclean4/foodlux" className="underline">here</a>.</p>
         </div>
       </div>
     </Layout>
