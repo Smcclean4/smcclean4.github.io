@@ -4,7 +4,7 @@ import Image from 'next/image'
 const About = () => {
   return (
     <Layout>
-      <div className="flex flex-col-reverse h-full w-full text-center lg:flex-row">
+      <div className="flex flex-col-reverse h-full w-full text-center lg:flex-row text-white">
         <div className="w-full flex flex-col justify-center items-center lg:w-1/2">
           <div className="my-10">
             <h1 className="text-2xl animate-typing overflow-hidden border-r-2 whitespace-nowrap my-0 mx-auto tracking-widest sm:text-3xl">Hello, my name is Sidney.</h1>

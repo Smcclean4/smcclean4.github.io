@@ -6,7 +6,7 @@ import { faMailBulk } from "@fortawesome/free-solid-svg-icons"
 const Contact = () => {
   return (
     <Layout>
-      <div className="flex flex-col justify-center items-center text-center w-3/4">
+      <div className="flex flex-col justify-center items-center text-center w-3/4 text-white">
         <p className="text-2xl pb-10"><b>Feel free to contact me at any source listed below.</b></p>
         <p className="text-xl">I look forward to working with you soon.</p>
         <div>
