@@ -30,7 +30,7 @@ const Foodlux = () => {
         <div className="text-black w-full lg:w-1/2 h-full flex flex-col items-center justify-end lg:bg-inherit bg-white">
           <div className={loading ? "animate-slide h-full w-full flex items-end justify-center" : "h-full w-full flex items-end justify-center"}>
             <Suspense fallback={<Loading />}>
-              <Videoplayer url="https://mccleansid.wistia.com/medias/euvwununbc" />
+              <Videoplayer url="https://mccleansid.wistia.com/medias/ipkzxb64l0" />
             </Suspense>
           </div>
           <p className="font-mono text-md md:text-xl my-4 px-6 text-center">You can find this project live <a target="_blank" href="https://foodlux.vercel.app" className="underline">here</a>. And the source code <a target="_blank" href="https://www.github.com/smcclean4/foodlux" className="underline">here</a>.</p>
