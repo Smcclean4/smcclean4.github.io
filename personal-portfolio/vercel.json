@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/foodlux/:path*",
+      "destination": "https://foodlux.vercel.app/:path*",
+      "basePath": false
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://sidneylmcclean.dev/:1",
+      "basePath": false
+    }
+  ]
+}
