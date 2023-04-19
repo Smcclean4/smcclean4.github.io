@@ -3,10 +3,6 @@
     {
       "source": "/foodlux/:path*",
       "destination": "https://foodlux.vercel.app/:path*"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "https://sidneylmcclean.dev/:1"
     }
   ]
 }
