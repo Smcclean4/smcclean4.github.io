@@ -17,7 +17,7 @@ const Foodlux = () => {
       <div className="flex flex-col lg:flex-row w-full h-full lg:bg-gradient-to-br from-black from-50% to-white to-50%">
         <div className="w-full lg:w-1/2 h-full flex flex-col items-center pt-10 text-white">
           <p className="text-5xl mb-10 font-mono underline">Foodlux</p>
-          <p className="w-3/4 text-2xl font-extralight">An example food servicing website where you can order food, browse menus, and  order food using your preferred payment method. You&apos;ll receive order information after putting in your checkout information, and you can track the status of your order from the comfort of your own home.</p>
+          <p className="w-3/4 text-2xl font-extralight">Discover a seamless food service website where you can place an order, explore a variety of menus, and pay with your preferred method. Receive instant order confirmation and effortlessly track the status of your delivery, all from the comfort of your own home.</p>
           <ul className="my-10 flex flex-row flex-wrap w-3/4 justify-center">
             <a target="_blank" href="https://www.mui.com"><Image className="m-3 animate-pulse" width="50" height="50" src="https://img.icons8.com/color/48/000000/material-ui.png" alt={""} /></a>
             <a target="_blank" href="https://www.typescriptlang.org"><Image className="m-3 h-15 animate-pulse" width="50" height="50" src="https://img.icons8.com/color/48/000000/typescript.png" alt={""} /></a>
