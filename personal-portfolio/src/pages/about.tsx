@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex justify-center items-center bg-white drop-shadow-2xl lg:w-1/2">
-          <Image className="mx-auto" src="/IMG_3532.JPG" alt={""} height="550" width="550" placeholder="blur" blurDataURL="/IMG_3532.JPG" />
+          <Image className="mx-auto" src="/IMG_3521.JPG" alt={""} height="550" width="550" placeholder="blur" blurDataURL="/IMG_3521.JPG" />
         </div>
       </div>
     </Layout>
