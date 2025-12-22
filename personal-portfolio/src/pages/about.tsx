@@ -7,7 +7,7 @@ const About = () => {
       <div className="flex flex-col-reverse h-full w-full text-center lg:flex-row text-white">
         <div className="w-full flex flex-col justify-center items-center lg:w-1/2">
           <div className="my-10">
-            <h1 className="text-2xl animate-typing overflow-hidden border-r-2 whitespace-nowrap my-0 mx-auto tracking-widest sm:text-3xl">Hello, my name is Sidney.</h1>
+            <h1 className="text-2xl animate-typing overflow-hidden border-r-2 whitespace-nowrap my-0 mx-auto tracking-widest sm:text-3xl">Hello, my name is Sid.</h1>
           </div>
           <div className="w-11/12 text-xl font-extralight sm:w-3/4">
             <p className="my-2">I have extensive experience in freelance work for prominent clients, as well as individual clients, where I develop top-notch software solutions that cater to both client requirements and user needs.</p>
