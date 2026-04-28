@@ -14,7 +14,7 @@ const Foodlux = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col lg:flex-row w-full h-full lg:bg-gradient-to-br from-black from-50% to-white to-50%">
+      <div className="flex text-center flex-col lg:flex-row w-full h-full lg:bg-gradient-to-br from-black from-50% to-white to-50%">
         <div className="w-full lg:w-1/2 h-full flex flex-col items-center pt-10 text-white">
           <p className="text-5xl mb-10 font-mono underline">Foodlux</p>
           <p className="w-3/4 text-2xl font-extralight">Discover a seamless food service website where you can place an order, explore a variety of menus, and pay with your preferred method. Receive instant order confirmation and effortlessly track the status of your delivery, all from the comfort of your own home.</p>
